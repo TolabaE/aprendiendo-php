@@ -1,11 +1,15 @@
 <?php
 
-
 $nombre = "";
-
+$apellido = "";
+$edad = "";
+$dni = "";
 
 if ($_POST) {
-    # code...
+    $nombre = isset($_POST['first_name'])?$_POST['first_name']:"";
+    $apellido = isset($_POST['last_name'])?$_POST['last_name']:"";
+    $edad = isset($_POST['age'])?$_POST['age']:"";
+    $nombre = isset($_POST['dni'])?$_POST['dni']:"";
 }
 
 ?>
