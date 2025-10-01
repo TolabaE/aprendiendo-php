@@ -8,9 +8,3 @@ $listaAlumnos = array("eduardo","camila","juan","pablo","cesar","maria");
 array_push($listaAlumnos,"florencia");
 
 print_r($listaAlumnos);
-
-
-
-
-
-?>

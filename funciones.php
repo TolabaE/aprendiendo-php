@@ -25,5 +25,3 @@ echo "<br>";
 $randomNum = rand(0,10);
 
 echo $randomNum;
-
-?>
