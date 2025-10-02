@@ -16,7 +16,7 @@ print_r($vehiculos["moto"]);
 echo "PARA LEER UN ARREGLO PODEMOS USAR UN CICLO FOR <br> <br>";
 
 //itera un arreglo empezando del indice 0 hasta la longuitud del arreglo;
-for ($i=0; $i < count($frutas) ; $i++) { 
+for ($i=0; $i < count($frutas) ; $i++) {
     echo $frutas[$i]."<br>";
 }
 
@@ -24,5 +24,3 @@ for ($i=0; $i < count($frutas) ; $i++) {
 foreach ($vehiculos as $key => $auto) {
     echo "vehiculos:$key es igual a => $auto <br>";
 }
-
-?>
