@@ -1,0 +1,2 @@
+hola como estas son un contenido del archivo txt,usado para poder llamarlo usando php
+y mostrarlo en pantalla.

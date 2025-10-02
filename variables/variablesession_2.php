@@ -3,4 +3,3 @@
 session_start();
 //el session destroy sirve para eliminar la sesion, por lo tanto los datos se pierden.
 session_destroy();
-?>

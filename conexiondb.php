@@ -23,9 +23,9 @@ try{
     $sentencia->execute();//ejecuta el programa.
     $resultado = $sentencia->fetchAll(); //obtiene los valores.
 
-    // print_r($resultado);
+    // print_r($resultado)
     foreach ($resultado as $key => $usuario) {
-        echo ($usuario["nombre"]."<br>");
+        echo $usuario["nombre"]."<br>";
     }
 
 
@@ -33,5 +33,3 @@ try{
 }catch(PDOException $error){
     echo "conexion fallida: <br>".$error;
 }
-
-?>

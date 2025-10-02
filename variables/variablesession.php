@@ -6,5 +6,3 @@ $_SESSION["usuario"] = "Eduardo";
 $_SESSION["estado"] = "logeado";
 
 echo "session iniciada, nombre: ".$_SESSION["usuario"]." ,estado de la operacion: ".$_SESSION["estado"]."<br>";
-
-?>
